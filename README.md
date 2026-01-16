@@ -8,6 +8,30 @@ The original tutorial taught multiple ways to do everything (base R subsetting w
 
 This version teaches **one modern way per task** using the tidyverse ecosystem that you'll actually use in real work.
 
+## How to Download These Files
+
+**You don't need to know git or GitHub.** Just follow these steps:
+
+### Method 1: Download ZIP (Easiest)
+1. Click the green **Code** button at the top of this page
+2. Click **Download ZIP**
+3. Unzip the file on your computer
+4. Open `R Tutorial.R` in RStudio
+
+### Method 2: Copy-Paste
+1. Click on `R Tutorial.R` above
+2. Click the **Copy raw file** button (two overlapping squares icon)
+3. Create a new R script in RStudio
+4. Paste and save
+
+### What is GitHub?
+GitHub is a website for sharing code. Think of it like Google Drive for programmers. You're viewing this tutorial on GitHub right now, but you don't need a GitHub account to download and use it.
+
+### What You Need
+- The `R Tutorial.R` file (the actual tutorial)
+- The Congress data file (get from Canvas/instructor)
+- R and RStudio installed (see "Getting Started" section below)
+
 ## What Changed
 
 ### Removed
