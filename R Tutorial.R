@@ -141,9 +141,12 @@ seq(5, 1, -2) # 5 to 1 by -2
 seq(1, 5, 0.5) # 1 to 5 by 0.5
 
 # Setup: Packages and Data ------------------------------------------------
-# Install packages once (uncomment to run):
-# install.packages("tidyverse")  # includes dplyr, ggplot2, readr, and more
-# install.packages("modelsummary")
+# Install pak (modern package installer - faster than base R)
+# Run this once:
+# install.packages("pak")
+
+# Install packages once with pak (way faster, parallel downloads):
+# pak::pak(c("tidyverse", "modelsummary"))
 
 # Load packages every session
 library(tidyverse)

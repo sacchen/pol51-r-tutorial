@@ -114,10 +114,14 @@ Learning base R brackets first is like learning C before Python. Unnecessary fri
 
 ### First Time Setup
 ```r
-# Run once to install packages
-install.packages("tidyverse")
-install.packages("modelsummary")
+# Install pak (modern, faster package installer)
+install.packages("pak")
+
+# Use pak to install everything (way faster than base R)
+pak::pak(c("tidyverse", "modelsummary"))
 ```
+
+**Why pak?** It downloads packages in parallel (like modern package managers) instead of one-at-a-time. Installing tidyverse takes ~30 seconds with pak vs ~5 minutes with base `install.packages()`.
 
 ### Every Session
 ```r
