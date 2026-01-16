@@ -1,0 +1,27 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Data files (students should download their own)
+*.csv
+*.xlsx
+*.xls
+*.dta
+*.sav
+
+# Output
+*.html
+*.pdf
+*.png
+*.jpg
+congress_clean.csv
+ideology_plot.png
+
+# macOS
+.DS_Store
+
+# RStudio temporary files
+*-Ex.R
